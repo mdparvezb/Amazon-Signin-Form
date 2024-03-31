@@ -1,0 +1,245 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    min-height: 100vh;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 18px;
+}
+
+.logo img{
+    width: 103px;
+    height: 35px;
+    float: left;
+}
+
+.logo #in{
+    font-size: 14px;
+    align-self: end;
+    position: relative;
+    bottom: -25%;
+    margin-left: 1px;
+    font-weight: 100;
+}
+
+.logo a{
+    text-decoration: none;
+    color: black;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-box{
+    width: 350px;
+    height: 360px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px 26px;
+}
+
+.main-box h1{
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 1.2;
+    padding-bottom: 4px;
+    margin-bottom: 10px;
+}
+
+.email-box label{
+    padding-left: 2px;
+    padding-bottom: 2px;
+    font-size: 13px;
+    font-weight: bold;
+    display: block;
+}
+
+.email-box input{
+    width: 100%;
+    margin-bottom: 14px;
+    height: 31px;
+    padding: 3px 7px;
+    border: 1px solid #a6a6a6;
+    border-top-color: #949494;
+    border-radius: 3px;    
+}
+
+#submit{
+    background-color: #ffd814;
+    font-weight: 500;
+    box-shadow: 0 0px 2px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+#submit:hover{
+    background-color: #ecc502;
+}
+
+#terms {
+    font-size: 12px;
+    margin-top: 5px ;  
+}
+
+#terms a{
+    text-decoration: none;
+    cursor: pointer;
+}
+#terms a:hover{
+    text-decoration: underline;
+    color: red;
+}
+.need-help{
+    font-size: 13px;
+    margin-top: 25px;
+}
+
+.need-help a{
+    text-decoration: none;   
+}
+
+a:hover{
+    text-decoration: underline;
+    color: red;
+}
+
+.line{
+    margin-top: 30px;
+    width: 100%;
+    border-bottom: 1px solid #e7e7e7;
+    background-color: transparent;
+}
+
+.amazon-business{
+    margin-bottom: 5px;
+    margin-top: 14px;
+}
+
+.buying-option{
+font-size: 13px;
+font-weight: bold;
+}
+
+#shop-on-amazon{
+    text-decoration: none;
+    font-size: 13px;
+}
+
+
+#shop-on-amazon:hover{
+    text-decoration: underline;
+    color: red;
+}
+
+.bottom-spacer{
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+    margin-top: 26px;
+}
+
+.left{
+    width: 35%;
+    border-bottom: 1px solid  #e7e7e7;
+    background-color: transparent;
+}
+
+.right{
+    width: 35%;
+    border-bottom: 1px solid  #e7e7e7;
+    background-color: transparent;
+}
+
+.new-to-amazon{
+    width: 350px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #949494;
+}
+
+.account-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 11px;
+}
+
+.create-account{
+    width: 350px;
+}
+
+#create-acc-btn{
+    width: 100%;
+    height: 30px;
+    background-color: white ;
+    font-weight: 500;;
+    border-radius: 8px;
+    border: 1px solid  #e7e7e7 ;
+    outline: none;
+    cursor: pointer;
+    box-shadow: 0 0 1px 0 rgba(0, 0, 0, .4);
+}
+
+#create-acc-btn:hover{
+    background-color: #ececec;
+
+}
+
+.footer{
+    margin-top: 30px;
+    margin-bottom: 10px;
+    width: 100%;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, .14), rgba(0, 0, 0, .03) 3px, transparent);
+}
+
+.footer-nav{
+    padding: 0 45px;
+    margin-top: 30px;
+    width: 350px;
+    font-size: 11px;
+    display: flex;
+    justify-content: space-around;
+}
+.footer-nav a{
+text-decoration: none;
+}
+
+.copy-container{
+    display: flex;
+    justify-content: center;
+}
+
+.footer-copy{
+    display: flex;
+    justify-content: center;
+    width: 350px;
+    font-size: 11px;
+    color: #424242;
+    padding: 0 40px;
+}
+
+.footer a:hover{
+    text-decoration: underline;
+    color: red;
+}
+
+.main-footer{
+    padding-bottom: 30px ;
+}
